@@ -36,7 +36,7 @@ function start() {
     minute.innerHTML = m < 10 ? `0${m}` : m;
     count.innerHTML += ".";
     countSeconds++;
-    if (countSeconds === 60) {
+    if (countSeconds === 59) {
       countSeconds = 0;
       count.innerHTML = ".";
     }
